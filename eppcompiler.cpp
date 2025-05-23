@@ -58,7 +58,7 @@ void demn(ExprTreeNode *node,vector<string> &tar,Parser *targ){
         tar.push_back(node->type);
     }
 }
-// agar chuda toh jindal ki sun lio
+
 vector<string> EPPCompiler::generate_targ_commands(){
     ExprTreeNode* root=(targ.expr_trees).back();
     vector<string> ans;
